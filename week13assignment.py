@@ -8,7 +8,7 @@ def get_anime_info(anime_name):
         
         if response.status_code == 200:
             data = response.json()
-            # print(data)
+            # print(data
             
             if data['data']==[]:
                 print(f"No anime found with this name {anime_name}")
